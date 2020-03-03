@@ -54,6 +54,7 @@ def total_gross(source)
   director_index = 0
   while director_index < directors.length do
     puts totals[directors[director_index]]
+    director_index +=1
   end
 
 
