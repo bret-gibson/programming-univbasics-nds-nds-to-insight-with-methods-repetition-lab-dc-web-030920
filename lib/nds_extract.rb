@@ -53,7 +53,7 @@ def total_gross(source)
   grand_total = 0;
   director_index = 0
   while director_index < directors.length do
-    puts totals[directors[director_index]]
+    grand_total += totals[directors[director_index]]
     director_index +=1
   end
 
