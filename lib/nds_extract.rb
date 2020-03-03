@@ -56,9 +56,6 @@ def total_gross(source)
     grand_total += totals[directors[director_index]]
     director_index +=1
   end
-
-
-
-
-
+  puts grand_total
+  grand_total
 end
